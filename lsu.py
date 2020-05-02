@@ -12,3 +12,4 @@ paginator = iam_client.get_paginator('list_users')
 
 for response in paginator.paginate():
     print(response)
+    print(type(response))
